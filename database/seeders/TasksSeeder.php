@@ -6,6 +6,7 @@ use App\Models\Task;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
+
 class TasksSeeder extends Seeder
 {
     /**
