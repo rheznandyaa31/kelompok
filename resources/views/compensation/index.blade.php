@@ -9,3 +9,4 @@
 @section('content')
     <h1>Compensation Page</h1>
 @endsection
+

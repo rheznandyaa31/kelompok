@@ -132,5 +132,18 @@ class UserSeeder extends Seeder
             'email_verified_at' => now(),
             'role' => 'mahasiswa',
         ]);
+        User::create([
+            'name' => 'andikuaya',
+            'email' => 'hua@gmail.com',
+            'username' => '12345678',
+            'telp' => '0855555555556225',
+            'alamat' => 'Jl. pentol, Yogyakarta',
+            'image' => 'mahasiswa.jpg',
+            'semester' => 3,
+            'prodi' => 'Teknologi Rekayasa Perangkat Lunak',
+            'password' => 'mahasisswi',
+            'email_verified_at' => now(),
+            'role' => 'mahasiswa',
+        ]);
     }
 }

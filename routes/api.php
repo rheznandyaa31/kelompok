@@ -7,6 +7,7 @@ use Laravel\Sanctum\Http\Controllers\CsrfCookieController;
 use App\Http\Controllers\Api\TasksController;
 
 
+
 Route::prefix('v1')->group(function () {
 // auth
     Route::post('/login', [AuthController::class, 'login'])->name('login');

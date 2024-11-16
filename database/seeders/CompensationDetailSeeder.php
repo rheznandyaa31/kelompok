@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 
+
 use App\Models\Compensations;
 use App\Models\CompensationDetails;
 use Illuminate\Database\Seeder;

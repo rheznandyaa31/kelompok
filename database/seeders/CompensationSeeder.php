@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 
+
 use App\Models\Compensations;
 use App\Models\Task;
 use App\Models\User;
